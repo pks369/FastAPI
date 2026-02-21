@@ -18,7 +18,7 @@ A production-ready reference service that fetches from **3 external APIs concurr
 - **Background Jobs**: Celery + Redis with retries/backoff
 
 ## Quick Start (Docker)
-'''bash
+
 # 1) Copy env template and edit if needed
 cp .env .env
 
@@ -27,7 +27,7 @@ docker compose up --build
 
 # 3) Open API docs
 open http://localhost:8000/docs
-'''
+
 
 Services:
 - API: http://localhost:8000
